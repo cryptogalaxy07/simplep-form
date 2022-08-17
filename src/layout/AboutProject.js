@@ -1,11 +1,11 @@
 export default function AboutProject() {
   return (
-    <div className="bg-slate-200 ">
+    <div className="bg-slate-200 " id="part2">
       <div className="text-center p-10 text-4xl">
-        <h2>About Project</h2>
+        <h2 className="font-extrabold">About Project</h2>
       </div>
       <div className="md:px-36 px-12">
-        <p className="text-2xl pb-10">
+        <p className="text-xl md:text-2xl pb-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices
           in iaculis nunc sed augue. Eu scelerisque felis imperdiet proin

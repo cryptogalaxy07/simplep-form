@@ -3,8 +3,8 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Home', href: '#', current: false },
-  { name: 'About Project', href: '#', current: false },
-  { name: 'Graphics', href: '#', current: false },
+  { name: 'About Project', href: '#part2', current: false },
+  { name: 'Graphics', href: '#part3', current: false },
 ]
 
 function classNames(...classes) {
@@ -26,8 +26,8 @@ export default function Heading() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          item.current ? 'bg-gray-900  text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm md:text-xl font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >

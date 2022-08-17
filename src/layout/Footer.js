@@ -1,17 +1,14 @@
 export default function Footer() {
   return (
-    <div>
-      <div>
-        <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
-          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+    <div className="">
+      <div className="bg-gray-700 flex justify-center items-center p-4">
+          <span className="text-base text-white">
             © 2022{" "}
-            <a href="" class="hover:underline">
+            <a href="" className="hover:underline">
               Flowbite™
             </a>
             . All Rights Reserved.
           </span>
-        </footer>
       </div>
     </div>
   );
